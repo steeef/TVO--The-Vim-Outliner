@@ -34,16 +34,16 @@ end
 
 if &background == "dark"
 " hi def otlLeadingSpaces ctermbg=darkred guibg=#500000
-  hi def otlTodo ctermbg=3 guibg=lightyellow guifg=black
+  hi def otlTodo ctermbg=3 guibg=#FD971F guifg=black
   hi def otlTagRef ctermbg=3 ctermfg=4 cterm=bold guibg=lightred guifg=black
   hi def otlTagDef ctermbg=3 ctermfg=4 cterm=bold guibg=lightgreen guifg=black
-  hi def otlTextLeader guifg=darkgrey ctermfg=7
+  hi def otlTextLeader guifg=#465457 ctermfg=7
 else
 " hi def otlLeadingSpaces ctermbg=lightred guibg=#ffdddd
-  hi def otlTodo ctermbg=3 guibg=lightyellow
+  hi def otlTodo ctermbg=3 guibg=#FD971F
   hi def otlTagRef ctermbg=3 ctermfg=4 cterm=bold guibg=lightred
   hi def otlTagDef ctermbg=3 ctermfg=4 cterm=bold guibg=lightgreen
-  hi def otlTextLeader guifg=darkgrey ctermfg=7
+  hi def otlTextLeader guifg=#465457 ctermfg=7
 endif
 
 " Default is to have bold headers
@@ -52,28 +52,28 @@ if !exists("g:otl_bold_headers")
 endif
 
 if g:otl_bold_headers
-  hi def otlTab0 ctermfg=1 cterm=bold gui=bold guifg=red term=reverse
-  hi def otlTab1 ctermfg=4 cterm=bold gui=bold guifg=blue term=reverse
-  hi def otlTab2 ctermfg=2 cterm=bold gui=bold guifg=darkgreen term=reverse
-  hi def otlTab3 ctermfg=3 cterm=bold gui=bold guifg=brown term=reverse
-  hi def otlTab4 ctermfg=5 cterm=bold gui=bold guifg=darkmagenta term=reverse
-  hi def otlTab5 ctermfg=6 cterm=bold gui=bold guifg=darkcyan term=reverse
-  hi def otlTab6 ctermfg=1 cterm=bold gui=bold guifg=red term=reverse
-  hi def otlTab7 ctermfg=4 cterm=bold gui=bold guifg=blue term=reverse
-  hi def otlTab8 ctermfg=2 cterm=bold gui=bold guifg=darkgreen term=reverse
-  hi def otlTab9 ctermfg=3 cterm=bold gui=bold guifg=brown term=reverse
+  hi def otlTab0 ctermfg=1 cterm=bold gui=bold guifg=#F92672 term=reverse
+  hi def otlTab1 ctermfg=4 cterm=bold gui=bold guifg=#66D9EF term=reverse
+  hi def otlTab2 ctermfg=2 cterm=bold gui=bold guifg=#A6E22E term=reverse
+  hi def otlTab3 ctermfg=3 cterm=bold gui=bold guifg=#BCA3A3 term=reverse
+  hi def otlTab4 ctermfg=5 cterm=bold gui=bold guifg=#960050 term=reverse
+  hi def otlTab5 ctermfg=6 cterm=bold gui=bold guifg=#66D9EF term=reverse
+  hi def otlTab6 ctermfg=1 cterm=bold gui=bold guifg=#F92672 term=reverse
+  hi def otlTab7 ctermfg=4 cterm=bold gui=bold guifg=#66D9EF term=reverse
+  hi def otlTab8 ctermfg=2 cterm=bold gui=bold guifg=#A6E22E term=reverse
+  hi def otlTab9 ctermfg=3 cterm=bold gui=bold guifg=#BCA3A3 term=reverse
 else
-  hi def otlTab0 ctermfg=1 cterm=NONE guifg=red
-  hi def otlTab1 ctermfg=4 cterm=NONE guifg=blue
-  hi def otlTab2 ctermfg=2 cterm=NONE guifg=darkgreen
-  hi def otlTab3 ctermfg=3 cterm=NONE guifg=brown
-  hi def otlTab4 ctermfg=5 cterm=NONE guifg=darkmagenta
-  hi def otlTab5 ctermfg=6 cterm=NONE guifg=darkcyan
-  hi def otlTab6 ctermfg=1 cterm=NONE guifg=red
-  hi def otlTab7 ctermfg=4 cterm=NONE guifg=blue
-  hi def otlTab8 ctermfg=2 cterm=NONE guifg=darkgreen
-  hi def otlTab9 ctermfg=3 cterm=NONE guifg=brown
-  hi def otlTodo ctermbg=3 cterm=NONE guibg=lightyellow
+  hi def otlTab0 ctermfg=1 cterm=NONE guifg=#F92672
+  hi def otlTab1 ctermfg=4 cterm=NONE guifg=#66D9EF
+  hi def otlTab2 ctermfg=2 cterm=NONE guifg=#A6E22E
+  hi def otlTab3 ctermfg=3 cterm=NONE guifg=#BCA3A3
+  hi def otlTab4 ctermfg=5 cterm=NONE guifg=#AE81FF
+  hi def otlTab5 ctermfg=6 cterm=NONE guifg=#66D9EF
+  hi def otlTab6 ctermfg=1 cterm=NONE guifg=#F92672
+  hi def otlTab7 ctermfg=4 cterm=NONE guifg=#66D9EF
+  hi def otlTab8 ctermfg=2 cterm=NONE guifg=#A6E22E
+  hi def otlTab9 ctermfg=3 cterm=NONE guifg=#BCA3A3
+  hi def otlTodo ctermbg=3 cterm=NONE guibg=#E6DB74
 endif
 
 " vim: ts=2 sw=2 et
