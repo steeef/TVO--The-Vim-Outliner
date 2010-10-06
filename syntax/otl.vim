@@ -34,15 +34,15 @@ end
 
 if &background == "dark"
 " hi def otlLeadingSpaces ctermbg=darkred guibg=#500000
-  hi def otlTodo ctermbg=3 guibg=#FD971F guifg=black
-  hi def otlTagRef ctermbg=3 ctermfg=4 cterm=bold guibg=lightred guifg=black
-  hi def otlTagDef ctermbg=3 ctermfg=4 cterm=bold guibg=lightgreen guifg=black
+  hi def otlTodo ctermbg=3 guibg=#FD971F guifg=white
+  hi def otlTagRef ctermbg=3 ctermfg=4 cterm=bold guibg=#FD971F guifg=white
+  hi def otlTagDef ctermbg=3 ctermfg=4 cterm=bold guibg=#A6E22E guifg=white
   hi def otlTextLeader guifg=#465457 ctermfg=7
 else
 " hi def otlLeadingSpaces ctermbg=lightred guibg=#ffdddd
   hi def otlTodo ctermbg=3 guibg=#FD971F
-  hi def otlTagRef ctermbg=3 ctermfg=4 cterm=bold guibg=lightred
-  hi def otlTagDef ctermbg=3 ctermfg=4 cterm=bold guibg=lightgreen
+  hi def otlTagRef ctermbg=3 ctermfg=4 cterm=bold guibg=#FD971F
+  hi def otlTagDef ctermbg=3 ctermfg=4 cterm=bold guibg=#A6E22E
   hi def otlTextLeader guifg=#465457 ctermfg=7
 endif
 
