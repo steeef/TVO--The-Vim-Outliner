@@ -1,5 +1,6 @@
 " Syntax highlighting for outliner.
 " Maintainer: Ned Konz <vim@bike-nomad.com>
+" Modified by: steeef <steeef@gmail.com>
 " $Id: otl.vim 120 2006-05-16 00:59:52Z ned $
 "
 syn cluster vikiHyperLinks contains=vikiLink,vikiExtendedLink,vikiURL,vikiInexistentLink
@@ -47,7 +48,7 @@ endif
 
 " Default is to have bold headers
 if !exists("g:otl_bold_headers")
-  let g:otl_bold_headers = 1
+  let g:otl_bold_headers = 0
 endif
 
 if g:otl_bold_headers
